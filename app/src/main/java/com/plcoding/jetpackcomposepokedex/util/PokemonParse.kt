@@ -1,5 +1,6 @@
 package com.plcoding.jetpackcomposepokedex.util
 
+import android.util.Log
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.toLowerCase
 import com.plcoding.jetpackcomposepokedex.data.remote.responses.Stat
@@ -9,7 +10,7 @@ import java.util.Locale
 
 fun parseTypeToColor(type: Type): Color {
 
-    return when(type.type.name.toLowerCase(Locale.ROOT)) {
+    return when(type.type.name.lowercase(Locale.ROOT)) {
         "normal" -> TypeNormal
         "fire" -> TypeFire
         "water" -> TypeWater
@@ -34,22 +35,23 @@ fun parseTypeToColor(type: Type): Color {
 }
 
 fun parseStatToColor(stat: Stat): Color {
-
-    return when(stat.stat.name.toLowerCase()) {
+    Log.d("PokemonParse", (stat.stat.name))
+    return when(stat.stat.name.lowercase(Locale.getDefault())) {
         "hp" -> HPColor
         "attack" -> AtkColor
-        "defence" -> DefColor
+        "defense" -> DefColor
         "special-attack" -> SpAtkColor
-        "special-defence" -> SpDefColor
+        "special-defense" -> SpDefColor
         "speed" -> SpdColor
         else -> Color.White
     }
+
 
 }
 
 fun parseStatToAbbr(stat: Stat): String {
 
-    return when(stat.stat.name.toLowerCase()) {
+    return when(stat.stat.name.lowercase(Locale.ROOT)) {
         "hp" -> "HP"
         "attack" -> "Atk"
         "defence" -> "Def"
