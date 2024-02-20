@@ -35,6 +35,14 @@ Upon launching the application, you will be presented with a list of Pokémon. Y
 
 Additionally, you can use the search bar to quickly find a specific Pokémon by entering its name.
 
+## Images
+
+![pokedex application 1](https://github.com/willkopec/Pokedex-Android-Application/assets/85149000/ec4ca2e7-66c3-4861-849a-1b770b37ba7e)
+![pokedex application 2](https://github.com/willkopec/Pokedex-Android-Application/assets/85149000/3fef8962-2312-41f6-90c1-a20f1a974b87)
+![pokedex application 3](https://github.com/willkopec/Pokedex-Android-Application/assets/85149000/b31b3baf-b878-4f18-9186-bb42a0373348)
+![pokedex application 4](https://github.com/willkopec/Pokedex-Android-Application/assets/85149000/fb111cb9-0c04-480c-81c8-cfabfe1ef68e)
+![pokedex application 5](https://github.com/willkopec/Pokedex-Android-Application/assets/85149000/d77a52ae-1285-4cc5-9fbc-62dd75a3a299)
+
 ## Contributing
 
 Contributions to Pokedex are welcome! If you encounter any bugs, have feature requests, or want to contribute enhancements, feel free to open an issue or submit a pull request.
